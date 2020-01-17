@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/secret.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/SearchElementOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/SearchElementOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/MergeTwoArraysAndRemoveDuplicatesProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/MergeTwoArraysAndRemoveDuplicatesProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +60,13 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchElementOfArray">
-    <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArithmeticOperator" />
+  <component name="RunManager" selected="Application.MergeTwoArraysAndRemoveDuplicatesProgram">
+    <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.LowestNumber" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArraySort" />
+    <configuration name="MergeTwoArraysAndRemoveDuplicatesProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.MergeTwoArraysAndRemoveDuplicatesProgram" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemandsolutions.GradeSheet" />
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemandsolutions.RandomNumberGenerate" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemandsolutions.SearchElementOfArray" />
+    <configuration name="UnitTestingMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchElementOfArray" />
-        <item itemvalue="Application.ArraySort" />
-        <item itemvalue="Application.RandomNumberGenerate" />
-        <item itemvalue="Application.GradeSheet" />
-        <item itemvalue="Application.ArithmeticOperator" />
+        <item itemvalue="Application.MergeTwoArraysAndRemoveDuplicatesProgram" />
+        <item itemvalue="Application.LowestNumber" />
+        <item itemvalue="Application.UnitTestingMath" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.Pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +176,30 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="458" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1579136048492" />
-    <state width="1178" height="183" key="GridCell.Tab.0.bottom" timestamp="1579211878994">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1228" height="183" key="GridCell.Tab.0.bottom" timestamp="1579239076361">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1178" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579211878994" />
-    <state width="1178" height="183" key="GridCell.Tab.0.center" timestamp="1579211878993">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1228" height="183" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579239076361" />
+    <state width="838" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579227606055" />
+    <state width="1228" height="183" key="GridCell.Tab.0.center" timestamp="1579239076360">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1178" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579211878993" />
-    <state width="1178" height="183" key="GridCell.Tab.0.left" timestamp="1579211878992">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1228" height="183" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579239076360" />
+    <state width="838" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579227606054" />
+    <state width="1228" height="183" key="GridCell.Tab.0.left" timestamp="1579239076359">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1178" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579211878992" />
-    <state width="1178" height="183" key="GridCell.Tab.0.right" timestamp="1579211878993">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1228" height="183" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579239076359" />
+    <state width="838" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579227606053" />
+    <state width="1228" height="183" key="GridCell.Tab.0.right" timestamp="1579239076360">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1178" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579211878993" />
-    <state x="0" y="23" key="SettingsEditor" timestamp="1579137470996">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1228" height="183" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579239076360" />
+    <state width="838" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579227606054" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1579235443678">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1579235443678" />
     <state x="0" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579137470996" />
   </component>
 </project>
