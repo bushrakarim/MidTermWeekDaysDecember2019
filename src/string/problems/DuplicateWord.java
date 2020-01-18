@@ -1,6 +1,9 @@
 package string.problems;
 
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class DuplicateWord {
 
     public static void main(String[] args) {
@@ -11,6 +14,39 @@ public class DuplicateWord {
 
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
+        String[] seperateWords = st.split(" ");
+
+
+        Map<String, Integer> Map = new HashMap<>();
+
+
+        for (String word : seperateWords) {
+            Integer count = Map.get(word);
+            if (count == null) {
+                count = 0;
+            }
+            Map.put(word, count + 1);
+        }
+
+
+        for (Map.Entry<String, Integer> s : Map.entrySet()) {
+            System.out.println("'" + s.getKey() + "'" + ": " + s.getValue() + " time(s)");
+        }
+        System.out.println("-----------------------------------------------------");
+
+        String[] strArray = st.split(" ");
+        double totalChars = 0;
+        for(String s : strArray){
+            totalChars += s.length();
+        }
+        double words = strArray.length;
+        double averageWordLength = (double)(totalChars/words);
+        System.out.println("The average length of the words : "+averageWordLength);
+
+        }
     }
 
-}
+
+
+
+
