@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,31 +171,35 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="315" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.800@0.0.1280.800" timestamp="1579456564288" />
-    <state width="1228" height="135" key="GridCell.Tab.0.bottom" timestamp="1579627023949">
+    <state width="1228" height="135" key="GridCell.Tab.0.bottom" timestamp="1579627791636">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579627023949" />
+    <state width="1228" height="135" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579627791636" />
     <state width="1173" height="125" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579618233404" />
-    <state width="1228" height="135" key="GridCell.Tab.0.center" timestamp="1579627023948">
+    <state width="1228" height="135" key="GridCell.Tab.0.center" timestamp="1579627791635">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579627023948" />
+    <state width="1228" height="135" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579627791635" />
     <state width="1173" height="125" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579618233403" />
-    <state width="1228" height="135" key="GridCell.Tab.0.left" timestamp="1579627023947">
+    <state width="1228" height="135" key="GridCell.Tab.0.left" timestamp="1579627791634">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579627023947" />
+    <state width="1228" height="135" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579627791634" />
     <state width="1173" height="125" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579618233403" />
-    <state width="1228" height="135" key="GridCell.Tab.0.right" timestamp="1579627023948">
+    <state width="1228" height="135" key="GridCell.Tab.0.right" timestamp="1579627791635">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579627023948" />
+    <state width="1228" height="135" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579627791635" />
     <state width="1173" height="125" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579618233404" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1579479457927">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1579479457927" />
     <state x="0" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579137470996" />
+    <state width="653" height="500" key="SwitcherDM" timestamp="1579629044179">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="653" height="500" key="SwitcherDM/0.23.1280.777@0.23.1280.777" timestamp="1579629044179" />
     <state x="413" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579625671147">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
