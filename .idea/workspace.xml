@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +51,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnitTestSorting">
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
-      <module name="MidTermWeekDaysDecember2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProcessStudentInfo">
     <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -91,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessStudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parser.ProcessStudentInfo" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitTestSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.UnitTestSorting" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingEmployeeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
+    <configuration name="UnitTestingStudentProfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parser.UnitTestingStudentProfile" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcessStudentInfo" />
+        <item itemvalue="Application.UnitTestingStudentProfile" />
         <item itemvalue="Application.UnitTestSorting" />
         <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.UnitTestingEmployeeInfo" />
-        <item itemvalue="Application.ConnectToSqlDB" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +171,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="315" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.800@0.0.1280.800" timestamp="1579456564288" />
-    <state width="1228" height="135" key="GridCell.Tab.0.bottom" timestamp="1579627791636">
+    <state width="1228" height="135" key="GridCell.Tab.0.bottom" timestamp="1579642737407">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579627791636" />
+    <state width="1228" height="135" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579642737407" />
     <state width="1173" height="125" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579618233404" />
-    <state width="1228" height="135" key="GridCell.Tab.0.center" timestamp="1579627791635">
+    <state width="1228" height="135" key="GridCell.Tab.0.center" timestamp="1579642737405">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579627791635" />
+    <state width="1228" height="135" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579642737405" />
     <state width="1173" height="125" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579618233403" />
-    <state width="1228" height="135" key="GridCell.Tab.0.left" timestamp="1579627791634">
+    <state width="1228" height="135" key="GridCell.Tab.0.left" timestamp="1579642737404">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579627791634" />
+    <state width="1228" height="135" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579642737404" />
     <state width="1173" height="125" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579618233403" />
-    <state width="1228" height="135" key="GridCell.Tab.0.right" timestamp="1579627791635">
+    <state width="1228" height="135" key="GridCell.Tab.0.right" timestamp="1579642737406">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="135" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579627791635" />
+    <state width="1228" height="135" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579642737406" />
     <state width="1173" height="125" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579618233404" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1579479457927">
       <screen x="0" y="0" width="1280" height="800" />

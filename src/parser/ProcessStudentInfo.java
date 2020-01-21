@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Callable;
 
 public class ProcessStudentInfo {
 
@@ -41,6 +42,7 @@ public class ProcessStudentInfo {
 				String pathQtp = System.getProperty("user.dir") + "/src/parser/qtp.xml";
 				String tag = "id";
                 //Create ConnectToSqlDB Object
+				ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 				ConnectToMongoDB connectToMongoDB = new ConnectToMongoDB();
 				//Declare a Map with List<String> into it.
 				Map<String,List<Student>> list = new LinkedHashMap<String,List<Student>>();
@@ -57,23 +59,34 @@ public class ProcessStudentInfo {
 				
 				//Parse Data using parseData method and then store data into Selenium ArrayList.
 				seleniumStudents = xmlReader.parseData(tag, pathSelenium);
+				seleniumStudents = xmlReader.parseData(tag, pathSelenium);
+				System.out.println("****The Selenium students****");
+				for (Student st: seleniumStudents) System.out.println(st);
 
 				//Parse Data using parseData method and then store data into Qtp ArrayList.
-				
+				qtpStudents = xmlReader.parseData(tag, pathQtp);
+				System.out.println("**The QTP students**");
+				for (Student st: qtpStudents) System.out.println(st);
+
 				//add Selenium ArrayList data into map.
+				list.put("Selenium", seleniumStudents);
 
 				//add Qtp ArrayList data into map.
-		
+				list.put("QTP", qtpStudents);
 		      	
 				//Retrieve map data and display output.
-
-
+				for (Map.Entry entry : list.entrySet()) {
+					System.out.println(entry.getKey() + "    " + entry.getValue());
+				}
 
 				//Store Qtp data into Qtp table in Database
-				connectToMongoDB.insertIntoMongoDB(seleniumStudents,"qtp");
-				//connectToSqlDB.insertDataFromArrayListToMySql(seleniumStudents, "qtp","studentList");
+				connectToMongoDB.insertIntoMongoDB(qtpStudents,"qtp");
+				connectToSqlDB.insertDataFromArrayListToSqlTable(qtpStudents,"qtp","studentList");
+
 
 				//Store Selenium data into Selenium table in Database
+				connectToMongoDB.insertIntoMongoDB(seleniumStudents,"selenium");
+				connectToSqlDB.insertDataFromArrayListToSqlTable(seleniumStudents,"selenium","studentList");
 
 				//Retrieve Qtp students from Database
                List<Student> stList = connectToMongoDB.readStudentListFromMongoDB("qtp");
@@ -82,7 +95,10 @@ public class ProcessStudentInfo {
 			   }
 
 			   //Retrieve Selenium students from Database
-
+				List<Student> selstList = connectToMongoDB.readStudentListFromMongoDB("selenium");
+				for(Student st:selstList){
+					System.out.println(st.getFirstName()+" "+st.getLastName()+" "+st.getScore()+" "+st.getId());
+				}
 
 			}
 
