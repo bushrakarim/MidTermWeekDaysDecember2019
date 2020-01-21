@@ -26,6 +26,8 @@ public class Numbers {
 		//Selection Sort
 		Sort algo = new Sort();
 		algo.selectionSort(num);
+
+		//Selection Sort.....
 		long selectionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
         connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
@@ -33,23 +35,95 @@ public class Numbers {
         printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
-		//Insertion Sort
+
+		//Insertion Sort...........
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num,"Insertion_Sort","SortingNumbers");
+		List<String> numberInsertion = connectToSqlDB.readDataBase("Insertion_sort", "SortingNumbers");
+		printValue(numberInsertion);
+		randomize (num, n);
 
 		//By following above, Continue for rest of the Sorting Algorithm....
+		//Bubble Sort..........
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num,"Bubble_Sort","SortingNumbers");
+		List<String> numberBubble = connectToSqlDB.readDataBase("Bubble_sort", "SortingNumbers");
+		printValue(numberBubble);
+		randomize (num, n);
 
 
 
+		//Heap Sort........
+		algo.heapSort(num);
+		long heapSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num,"Heap_Sort","SortingNumbers");
+		List<String> numberHeap = connectToSqlDB.readDataBase("Heap_sort", "SortingNumbers");
+		printValue(numberHeap);
+		randomize (num, n);
+
+		//Bucket sort
+		algo.bucketSort(num);
+		long bucketSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in bucket Sort take: " + bucketSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bucket_sort", "SortingNumbers");
+		List<String> numberBucket = connectToSqlDB.readDataBase("Bucket_sort", "SortingNumbers");
+		printValue(numberBucket);
+		randomize (num, n);
+
+		//quick sort
+		algo.quickSort(num, findLow(num), findHigh(num));
+		long quickSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "quick_sort", "SortingNumbers");
+		List<String> numberQuick = connectToSqlDB.readDataBase("Quick_sort", "SortingNumbers");
+		printValue(numberQuick);
+		randomize (num, n);
+
+		//merge Sort
+		algo.MergeSort(num);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in merge Sort take: " + mergeSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "SortingNumbers");
+		List<String> numberMerge = connectToSqlDB.readDataBase("Merge_sort", "SortingNumbers");
+		printValue(numberMerge);
+		randomize (num, n);
+
+		//Shell Short
+		algo.shellSort(num);
+		long shellSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "Shell_sort", "SortingNumbers");
+		List<String> numberShell = connectToSqlDB.readDataBase("Shell_sort", "SortingNumbers");
+		printValue(numberShell);
+		randomize (num, n);
 
 
+	}
+	//Come to conclusion about which Sorting Algo is better in given data set.
 
+	public static int findLow(int[] array){
+		int low = array[0];
+		for(int n: array){
+			if(array[n] < low){
+				low = array[n];
+			}
+		}
+		return low;
+	}
 
-
-
-		//Come to conclusion about which Sorting Algo is better in given data set.
-
+	public static int findHigh(int[] array){
+		int high = array[0];
+		for(int n: array){
+			if(array[n] > high){
+				high = array[n];
+			}
+		}
+		return high;
 	}
 
 	public static void storeRandomNumbers(int [] num){

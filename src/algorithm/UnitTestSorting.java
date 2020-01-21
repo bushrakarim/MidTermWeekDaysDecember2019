@@ -22,7 +22,58 @@ public class UnitTestSorting {
         }
 
         //Now implement Unit test for rest of the soring algorithm...................below
+    //apply unsorted to insertionSort......
+        sort.insertionSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray,unSortedArray,"Insertion Sort Array is not Sorted");
+        }catch(Exception ex) {
+            ex.getMessage();
+        }
 
+        sort.bubbleSort(unSortedArray);
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Bubble sort array is not sorted!");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
+
+        // merge sort
+        sort.MergeSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Merge sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+        // heap sort
+        sort.heapSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Heap sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+        // bucket sort
+        sort.bucketSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Bucket sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+        // get max For Quick Sort .....
+        sort.getMax(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+        // shell sort
+        sort.shellSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
 
 
 
