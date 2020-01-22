@@ -42,6 +42,7 @@ public class ReadExcelFile {
                 System.out.println();
 
             }
+            //use of try catch when there is no file...
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -22,19 +22,19 @@ public class WriteExcelFile {
   XSSFSheet sheet = workbook.createSheet("Datatypes");
 
   Object[][] datatypes = {
-          { "Datatype", "Type", "Size(in bytes)" },
-          { "int", "Primitive", 2 },
-          { "float", "Primitive", 4 },
-          { "double", "Primitive", 8 },
-          { "char", "Primitive", 1 },
-          { "String", "Non-Primitive", "No fixed size" },
-          { "Zea", "Is Good", "Student" }
+          { "studentID", "name", "classes" },
+          { "1", "john", "java" },
+          { "2", "sarah", "oracle" },
+          { "3", "peter", "c#"},
+          { "4", "jay", "python" },
+          { "5", "rayan", "bigData" },
+          { "6", "marge", "Selenium" }
 
   };
 
 
   int rowNum = 0;
-  System.out.println("Creating excel");
+  System.out.println("Creating excel created");
 
 
 
@@ -69,7 +69,7 @@ public class WriteExcelFile {
   } catch (IOException e) {
    e.printStackTrace();
   }
-  System.out.println("Done");
+  System.out.println("Done successfully");
  }
 
 
